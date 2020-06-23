@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/app_toktown/static/css/main.5baa4367.chunk.css",
-    "main.js": "/app_toktown/static/js/main.f2301792.chunk.js",
-    "main.js.map": "/app_toktown/static/js/main.f2301792.chunk.js.map",
-    "runtime-main.js": "/app_toktown/static/js/runtime-main.0bc6ff49.js",
-    "runtime-main.js.map": "/app_toktown/static/js/runtime-main.0bc6ff49.js.map",
-    "static/js/2.f875b775.chunk.js": "/app_toktown/static/js/2.f875b775.chunk.js",
-    "static/js/2.f875b775.chunk.js.map": "/app_toktown/static/js/2.f875b775.chunk.js.map",
-    "index.html": "/app_toktown/index.html",
-    "precache-manifest.7532ea146569be5e889fe07a0a87b569.js": "/app_toktown/precache-manifest.7532ea146569be5e889fe07a0a87b569.js",
-    "service-worker.js": "/app_toktown/service-worker.js",
-    "static/css/main.5baa4367.chunk.css.map": "/app_toktown/static/css/main.5baa4367.chunk.css.map",
-    "static/js/2.f875b775.chunk.js.LICENSE.txt": "/app_toktown/static/js/2.f875b775.chunk.js.LICENSE.txt",
-    "static/media/bootstrap.min.css": "/app_toktown/static/media/glyphicons-halflings-regular.fa277232.woff"
+    "main.css": "./static/css/main.9300bc62.chunk.css",
+    "main.js": "./static/js/main.c3dd13b2.chunk.js",
+    "main.js.map": "./static/js/main.c3dd13b2.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.862bb086.js",
+    "runtime-main.js.map": "./static/js/runtime-main.862bb086.js.map",
+    "static/js/2.22f21137.chunk.js": "./static/js/2.22f21137.chunk.js",
+    "static/js/2.22f21137.chunk.js.map": "./static/js/2.22f21137.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.2eb7e23ec1f9d01235c442427ccbad89.js": "./precache-manifest.2eb7e23ec1f9d01235c442427ccbad89.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.9300bc62.chunk.css.map": "./static/css/main.9300bc62.chunk.css.map",
+    "static/js/2.22f21137.chunk.js.LICENSE.txt": "./static/js/2.22f21137.chunk.js.LICENSE.txt",
+    "static/media/bootstrap.min.css": "./static/media/glyphicons-halflings-regular.fa277232.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.0bc6ff49.js",
-    "static/js/2.f875b775.chunk.js",
-    "static/css/main.5baa4367.chunk.css",
-    "static/js/main.f2301792.chunk.js"
+    "static/js/runtime-main.862bb086.js",
+    "static/js/2.22f21137.chunk.js",
+    "static/css/main.9300bc62.chunk.css",
+    "static/js/main.c3dd13b2.chunk.js"
   ]
 }
