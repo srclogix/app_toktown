@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.58f62fd2.chunk.css",
-    "main.js": "/static/js/main.5cafbc30.chunk.js",
-    "main.js.map": "/static/js/main.5cafbc30.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.509f15d3.js",
-    "runtime-main.js.map": "/static/js/runtime-main.509f15d3.js.map",
-    "static/js/2.e4d25272.chunk.js": "/static/js/2.e4d25272.chunk.js",
-    "static/js/2.e4d25272.chunk.js.map": "/static/js/2.e4d25272.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.7922af0160a64ae1b85bc79058b33569.js": "/precache-manifest.7922af0160a64ae1b85bc79058b33569.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.58f62fd2.chunk.css.map": "/static/css/main.58f62fd2.chunk.css.map",
-    "static/js/2.e4d25272.chunk.js.LICENSE.txt": "/static/js/2.e4d25272.chunk.js.LICENSE.txt",
-    "static/media/bootstrap.min.css": "/static/media/glyphicons-halflings-regular.fa277232.woff"
+    "main.css": "/app_toktown/static/css/main.5baa4367.chunk.css",
+    "main.js": "/app_toktown/static/js/main.f2301792.chunk.js",
+    "main.js.map": "/app_toktown/static/js/main.f2301792.chunk.js.map",
+    "runtime-main.js": "/app_toktown/static/js/runtime-main.0bc6ff49.js",
+    "runtime-main.js.map": "/app_toktown/static/js/runtime-main.0bc6ff49.js.map",
+    "static/js/2.f875b775.chunk.js": "/app_toktown/static/js/2.f875b775.chunk.js",
+    "static/js/2.f875b775.chunk.js.map": "/app_toktown/static/js/2.f875b775.chunk.js.map",
+    "index.html": "/app_toktown/index.html",
+    "precache-manifest.7532ea146569be5e889fe07a0a87b569.js": "/app_toktown/precache-manifest.7532ea146569be5e889fe07a0a87b569.js",
+    "service-worker.js": "/app_toktown/service-worker.js",
+    "static/css/main.5baa4367.chunk.css.map": "/app_toktown/static/css/main.5baa4367.chunk.css.map",
+    "static/js/2.f875b775.chunk.js.LICENSE.txt": "/app_toktown/static/js/2.f875b775.chunk.js.LICENSE.txt",
+    "static/media/bootstrap.min.css": "/app_toktown/static/media/glyphicons-halflings-regular.fa277232.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.509f15d3.js",
-    "static/js/2.e4d25272.chunk.js",
-    "static/css/main.58f62fd2.chunk.css",
-    "static/js/main.5cafbc30.chunk.js"
+    "static/js/runtime-main.0bc6ff49.js",
+    "static/js/2.f875b775.chunk.js",
+    "static/css/main.5baa4367.chunk.css",
+    "static/js/main.f2301792.chunk.js"
   ]
 }
