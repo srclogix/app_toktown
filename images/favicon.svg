@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 69.4 69.4" style="enable-background:new 0 0 69.4 69.4;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:#FF0201;}
+</style>
+<radialGradient id="SVGID_1_" cx="34.7465" cy="34.7965" r="34.6929" gradientUnits="userSpaceOnUse">
+	<stop  offset="0" style="stop-color:#FFFFFF"/>
+	<stop  offset="1" style="stop-color:#CACACA"/>
+</radialGradient>
+<path class="st0" d="M63.4,69.5H6.1c-3.3,0-6-2.7-6-6V6.1c0-3.3,2.7-6,6-6h57.4c3.3,0,6,2.7,6,6v57.4C69.4,66.8,66.7,69.5,63.4,69.5
+	z"/>
+<g>
+	<g>
+		<circle class="st1" cx="34.7" cy="34.8" r="3.8"/>
+		<circle cx="45.7" cy="34.8" r="3.8"/>
+		<circle cx="23.6" cy="34.8" r="3.8"/>
+	</g>
+	<path d="M34.7,9.4c-14,0-25.4,11.4-25.4,25.4s11.4,25.4,25.4,25.4s25.4-11.4,25.4-25.4S48.7,9.4,34.7,9.4z M34.7,54.5
+		C23.8,54.5,15,45.7,15,34.8s8.8-19.7,19.7-19.7s19.7,8.8,19.7,19.7S45.6,54.5,34.7,54.5z"/>
+</g>
+<image style="overflow:visible;" width="360" height="360" xlink:href="../../../RAMASH/TokTown Socialmedia/facebook/facebook_logo_icon.jpg"  transform="matrix(1 0 0 1 -663.8757 -371.584)">
+</image>
+</svg>

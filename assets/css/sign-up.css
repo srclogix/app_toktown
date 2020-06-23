@@ -1,0 +1,151 @@
+@charset "utf-8";
+/* CSS Document */
+::-moz-selection {  background: rgba(255, 2, 1, .10);}
+::selection { background: rgba(255, 2, 1, .10);}
+*,body { padding: 0; margin: 0; outline: none !important;}
+img { max-width: 100%; height: auto; }
+body {background-repeat: no-repeat;font-family: 'Roboto', sans-serif;font-size: 17px;color: #323639;line-height: 25px;font-weight: normal;}
+ul { padding: 0; margin: 0; list-style-type: none; }
+h1,h2,h3,h4,h5,h6 { margin: 0;  }
+a,a:hover ,a:focus{ text-decoration:none; }
+h1,h2,h3,h4 {line-height: normal; font-weight: bold;}
+h1 { font-size:60px; }
+h2 { font-size: 50px; }
+h4 { font-size: 26px; }
+h3 { font-size: 30px; }
+h5 { font-size: 24px; }
+.c-login-pw .container{ max-width: 1000px; }
+.c-row-w {  margin: 0 15px; display: flex; flex-wrap: wrap; }
+.c-col-6 { flex: 0 0 50%; max-width: 0 0 50%;padding: 0 15px;}
+.d-flex { display: flex; }
+.justify-content-center { justify-content: center; }
+.no-padding { padding: 0; }
+.no-margin {  margin: 0; }
+.header-wrapper {padding: 30px;}
+.header-wrapper .logo {width: 200px;display: block;}
+.align-self-center { align-self: center; }
+
+/*main css*/
+.c-login-in{box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); border-radius: 12px; overflow: hidden;}
+.c-login-box h2 {margin-bottom: 10px;font-size: 32px;}
+.c-login-box {padding: 40px 40px;  }
+.c-login-form .from-group label  {color:#323639;font-size: 18px;margin-bottom: 7px;font-weight: bold;}
+.c-login-form .from-group .form-control {height: 50px;border: 1px solid #cecece;line-height: 100%;font-size: 17px;padding: 14px 20px;}
+.c-login-form .from-group .form-control:focus { box-shadow:  none; border-color: #01a4ff; }
+
+.c-login-form .from-group {margin-bottom: 10px;}
+.c-login-form {margin-top: 20px;}
+.c-login-btn {padding: 0px 20px;border-radius: 40px;height: 57px;background: #ff0201;font-weight: bold;color: #fff;text-align: center;width: 100%;margin-top: 11px;cursor: pointer;transition: 0.5s;border: none;}
+.c-login-btn:hover { background:#000; color: #fff;  }
+
+.c-login-other {margin-top: 30px;}
+.c-login-other h5 {text-align: center;font-size: 19px;color:#bfbfbf;position: relative;margin-bottom: 20px;}
+.c-login-other h5 span { background: #fff; padding: 0 10px; position: relative; z-index: 1; }
+.c-login-other h5:after {content:"";position: absolute;left: 0;width: 100%;top: 10px;width: 100%;background: #e6e0e0;display: block;z-index: 0;height: 1px;}
+
+.c-login-other li a { margin-right: 15px; display:  block; width: 55px; height: 55px; border-radius: 8px; border: 1px solid #cecece; padding: 10px 12px; }
+.c-login-other li a svg { height: 32px; }
+.c-login-other li:last-child a { margin-right: 0; }
+.c-login-other li a .facebook-icon { fill:#0073bc;  }
+.c-login-other li a .twiter-icon { fill:#1ca1f2;  }
+.c-login-other li a:hover { background: #cecece; }
+.c-login-con-w { background:#01a3ff; position: relative;  border-radius: 12px 0 0 12px; }
+.c-login-con-in {padding: 100px 140px 50px 60px;}
+.c-login-con-in h2 {color: #fff;margin-bottom: 20px;font-size: 42px;}
+.c-login-con-in  p { color:#ffffff; font-size: 22px;  }
+.c-modal-box-w .close { position: absolute; right:  30px; top: 20px; z-index: 5;
+color:#aaaaaa; font-size:42px; opacity: 1; }
+.c-login-con-w:before{background: url("../images/login-left-shape.svg") no-repeat;background-size: 100% 100%;width: 123px;height: 48px;display:block;content:"";display:block;position: absolute;right: -50px;bottom: 0;z-index: 9;transition: 0.5s}
+ .c-login-con-w:hover:before {right: -70px;}
+ .c-login-con-w p { margin-bottom: 30px; }
+.c-white-btn { background:#fff; font-size: 20px; color:#000000; display: inline-block;   font-weight: bold; padding: 16px 80px; border-radius: 30px;  }
+.c-white-btn:hover{ background: #000; color: #fff; }
+.c-forgot-wr { text-align: center; font-size: 18px; line-height: 100%; margin-bottom: 15px; }
+.c-forgot-wr a { border-bottom: 1px solid  #000000; color: #000;}
+.eye{color:#797979;text-decoration:none;font-size:11px;width:18px;background:url(../images/eye-close.png);background-size:cover;background-repeat:no-repeat;background-position:top left;display:block;height:15px;position:absolute;right:0;top:7px}
+.eye.active { color: #23527c; background-position: bottom left;}
+.c-password-wr { position: relative; }
+.mandatory {color: #ff0201;font-size: 16px;vertical-align: top;}
+ .c-login-other li a svg{filter: grayscale(100%);}
+.c-login-other li a:hover svg {filter: grayscale(0);}
+.c-more-feature-box { display:  block; height: 100%; }
+.c-banner-wr h1 .var-highlight { background: #eee;color:#68c76c; padding:0 7px; display: inline-block;
+margin-left: 2px; border-radius: 6px; display: inline-block;  }
+.string-highlight { display: block;  }
+#typewriter {min-height:145px;}
+.c-login-pw { padding-bottom: 30px; }
+.c-login-in { background: #fff; }
+
+.c-login-link { text-align: center; font-size: 16px; line-height: 100%; line-height: 100%; margin-bottom: 10px; margin-top: 20px; }
+.c-login-link a { border-bottom: 1px solid  #000000; color: #000;}
+
+.c-login-pw { position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%); }
+.c-forgot-wr { text-align: center; font-size: 18px; line-height: 100%; margin-bottom: 10px; margin-top: 20px; }
+.c-forgot-wr a { border-bottom: 1px solid  #000000; color: #000;}
+.login-other-link {justify-content: center;padding: 20px;}
+.login-other-link li {font-size: 20px;line-height: 100%;color: #fff;text-align: center;border-bottom:;margin-bottom: 10px;}
+
+.login-other-link li:last-child {  margin: 0; }
+.login-other-link li a { border-bottom: 1px solid  #fff; color: #fff;}
+ .c-login-img {/* height: 100%; */}
+ .c-login-img img {/* height: 90%; *//* object-fit: cover; */}
+.c-login-con-w { position: relative; }
+.login-other-link { position: absolute; left: 0; bottom: 0; z-index: 2; width: 100%;background: #01a3ff;  }
+.login-other-link { height: 139px; }
+.c-login-in .login-other-link{padding: 37px 20px;padding-bottom: 52px;}
+.c-sign-up-wr .login-other-link{padding: 50px 20px;padding-bottom: 69px;}
+.c-forget-pw .login-other-link {padding: 50px 20px;padding-bottom: 69px;}
+
+.c-login-con-w { height: 720px; }
+.c-row-w { align-items: center; }
+.login-other-link:after{width: 100%;height: 100px;content:"";display: block;width: 100%;position: absolute;right: 0;bottom: 138px;background: url("../images/login-shap.svg") no-repeat}
+.c-login-box p {margin-bottom: 30px;}
+
+/*responsive*/
+
+@media only screen and (max-width:1600px) {
+.c-login-pw { position: static; margin: 0 auto; -webkit-transform: translate(0);-ms-transform: translate(0);transform: translate(0); }
+}
+
+@media only screen and (max-width:1199px) {
+.c-login-pw .container { max-width: inherit; }
+}
+@media only screen and (max-width:992px) {
+
+.c-login-pw .container { max-width: inherit; }
+
+.c-col-6 { max-width: 100%; flex:  0 0 100%; }
+.c-login-img img{ width: 100%; }
+.c-login-img picture ,.c-login-img img { display: none; }
+.c-login-con-w { height: auto; }
+.login-other-link { position: static; height: auto; }
+.c-login-con-w { order: 2; }
+.login-other-link:after { display: none; }
+.c-login-con-w:before { right: 0 !important; }
+.header-wrapper .logo { margin: 0 auto; }
+}
+
+@media only screen and (max-width:767px) {
+.c-login-box { padding:30px 20px}
+.c-forget-pw .login-other-link ,.c-sign-up-wr .login-other-link ,.c-login-in .login-other-link{ padding:30px 15px; }
+.c-login-con-w:before { display: none; }
+.login-other-link li { font-size: 16px; }
+.c-login-box h2 { font-size: 29px; }
+.c-login-box p { margin-bottom: 20px; }
+
+}
+
+/*dark css*/
+@media (prefers-color-scheme: dark) {
+body { color:#a6a6a6; background: #000;  }
+.header-wrapper .logo svg{ fill:#fff;  }
+.header-wrapper .logo svg .st1{ fill:#fff;  }
+.c-login-in {border: 1px solid rgba(255, 255, 255, .3)!important ; background: #000;}
+h1, h2, h3, h4, h5, h6 { color: #fff; }
+.c-login-form .from-group label { color:#a6a6a6;  }
+.c-login-form .from-group .form-control {border: 1px solid rgba(255, 255, 255, .3)!important ; background: #000; color: #fff;}
+.c-login-other h5 span { background: #000; }
+.c-login-other h5:after { background:rgba(255, 255, 255, .3)!important ;  }
+.c-login-btn:hover,.c-login-btn:focus { background: #fff; color: #ff0201; }
+.eye {filter: brightness(0) invert(1);}
+}

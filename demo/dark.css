@@ -1,0 +1,186 @@
+/**
+ * @license
+ * Copyright 2019 Google LLC
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     https://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+:root {
+    --background-color: rgb(0, 0, 0);
+    --text-color: rgb(255, 255, 255);
+    /* --shadow-color: rgba(240, 240, 240, 0.5);
+  --accent-color: rgba(0, 0, 240, 0.5);*/
+}
+
+/*img {
+  filter: grayscale(50%);
+}
+
+.icon {
+  filter: invert(100%);
+}
+
+a {
+  color: yellow;
+}
+*/
+
+/* If no dark mode user agent stylesheet exists, emulate it 
+select,
+input,
+button,
+option {
+  color: var(--text-color);
+  background-color: var(--background-color);
+  border-width: 1px;
+  border-radius: 1px;
+}*/
+
+.wrapper-page .card-box {
+    box-shadow: 0 0px 24px 0 rgba(255, 255, 255, 0.06), 0 1px 0px 0 rgba(255, 255, 255, 0.02);
+}
+
+
+a {
+    color: #fff;
+}
+
+a:focus,
+a:hover {
+    color: #ccc;
+}
+
+.card-box {
+    background-color: #000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #fff;
+}
+
+svg {
+    fill: #fff;
+}
+
+.policy {
+    color: darkgray;
+}
+
+.policy:hover {
+    color: darkgray;
+}
+
+.quick-login span {
+    background: #000;
+    color: #fff;
+}
+
+.eye {
+    background: url(../assets/images/custom-icon/eye-close-dark.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top left;
+    width: 18px;
+}
+
+html {
+    background: #000;
+}
+
+.forgot .policy:before {
+    background-color: white;
+}
+
+.forgot .policy {
+    color: white;
+}
+
+#topnav .topbar-main {
+    background-color: #000;
+}
+
+.notification-box ul li a {
+    color: #fff;
+}
+
+#topnav .app-search a {
+    color: rgba(254, 254, 254, 0.7);
+}
+
+/* Else, use the user agent stylesheet */
+@media (prefers-color-scheme: dark) {
+
+    select,
+    input,
+    button,
+    option {
+        color: unset;
+        background-color: unset;
+    }
+}
+
+
+.enter-website .w-100 input { color: #fff; background:  transparent; border-color:rgba(255, 255, 255, .3)!important;  }
+
+.enter-website .w-100 input::-webkit-input-placeholder {color: #656565 !important; }
+
+.enter-website .w-100 input:-ms-input-placeholder { color: #656565!important; }
+
+.enter-website .w-100 input::placeholder {color: #656565!important; }
+
+#topnav .app-search .form-control, #topnav .app-search .form-control:focus { color: #fff; }
+#topnav .app-search .form-control
+
+#topnav .app-search .form-control::-webkit-input-placeholder {color: #a9a9a9 !important; }
+#topnav .app-search .form-control:-ms-input-placeholder { color: #a9a9a9!important; }
+#topnav .app-search .form-control::placeholder {color: #a9a9a9!important; }
+
+.pick-talk .comment-text { color: #fff; border: 1px solid rgba(255, 255, 255, .3) !important;}
+.check-icon .thumb { background: #000; }
+
+.check-icon .thumb.c-active ,.check-icon .thumb:hover {background: #000 !important;}
+
+.c-icon-area-phone-w .col-lg-3:nth-child(1) .gal-detail svg { fill: #1293f5; }
+.c-icon-area-phone-w .col-lg-3:nth-child(2) .gal-detail svg { fill: #374046; }
+.c-icon-area-phone-w .col-lg-3:nth-child(3) .gal-detail svg { fill: #ccdd20; }
+.c-icon-area-phone-w .col-lg-3:nth-child(4) .gal-detail svg { fill: #f6412d; }
+
+
+.comment-text::before {
+    color: rgba(255, 255, 255, .3) !important;
+}
+.c-otp-w input {
+    border: 1px solid rgba(255, 255, 255, .3) !important;
+}
+.c-drag-icon svg { fill: #1293f5; }
+html body .enter-mobile .phone-number-w .iti--allow-dropdown.iti--allow-dropdown input { background: #000 !important; color: #656565 !important; }
+html body .enter-mobile .phone-number-w .iti--allow-dropdown.iti--allow-dropdown input::-webkit-input-placeholder {color: #656565 !important; }
+html body .enter-mobile .phone-number-w .iti--allow-dropdown.iti--allow-dropdown input:-ms-input-placeholder { color: ##656565 !important; }
+html body .enter-mobile .phone-number-w .iti--allow-dropdown.iti--allow-dropdown input::placeholder {color: ##656565 !important; }
+.iti__country.iti__highlight { background: #000 !important; }
+.iti__country-list{ background: #4a4a4a !important;border-color:  rgba(255, 255, 255, .3)!important;  }
+.iti__divider { display: none;}
+.right-bar ,.right-bar .list-group-item{ background: #4a4a4a !important;}
+html body .enter-mobile .phone-number-w .iti--allow-dropdown.iti--allow-dropdown input {border-color:  rgba(255, 255, 255, .3)!important;}
+.user-list .user-list-item .user-desc span.name { color: #fff; }
+.right-bar .right-bar-toggle { color: #fff; }
+
+.dropdown-menu { background: #4a4a4a; }
+.dropdown-menu>li>a { color: #fff !important; }
+#topnav .topbar-main{border-color: rgba(255, 255, 255, .3)!important;}
+.radio label::before {background: #000;border-color: rgba(255, 255, 255, .3)!important;}
+#topnav .app-search .form-control, #topnav .app-search .form-control:focus ,.check-icon .thumb,pre{border-color: rgba(255, 255, 255, .3)!important;}
